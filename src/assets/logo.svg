@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shield background -->
+  <path d="M60 10L20 30V65C20 85 40 100 60 110C80 100 100 85 100 65V30L60 10Z" fill="#F97316" stroke="#FF6B00" stroke-width="2"/>
+  
+  <!-- Inner shield highlight -->
+  <path d="M60 18L28 35V62C28 78 45 90 60 98C75 90 92 78 92 62V35L60 18Z" fill="#FF6B00"/>
+  
+  <!-- Trading chart lines -->
+  <path d="M40 55L50 45L60 50L70 40L80 45" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Upward arrow -->
+  <path d="M70 40L75 35L80 40M75 35V50" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Security lock icon -->
+  <rect x="52" y="65" width="16" height="12" rx="2" fill="white"/>
+  <path d="M55 65V62C55 59.2 57.2 57 60 57C62.8 57 65 59.2 65 62V65" stroke="white" stroke-width="2" fill="none"/>
+  <circle cx="60" cy="71" r="2" fill="#F97316"/>
+</svg>

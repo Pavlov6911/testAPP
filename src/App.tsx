@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import './i18n/i18n';
+import { LanguageProvider } from './context/LanguageContext';
+import NextUIProvider from './context/NextUIProvider';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Suspense fallback={<div className="h-screen w-screen flex items-center justify-center bg-background">Loading...</div>}>
+      <NextUIProvider>
+        <LanguageProvider>
+          <Router>
+            <Routes>
+              <Route path="/*" element={<Home />} />
+            </Routes>
+          </Router>
+        </LanguageProvider>
+      </NextUIProvider>
+    </Suspense>
   );
 }
 

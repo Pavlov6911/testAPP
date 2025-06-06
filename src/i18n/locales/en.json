@@ -1,0 +1,259 @@
+{
+  "common": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "joinNow": "Join Now",
+    "askUs": "Ask Us Anything"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "howItWorks": "How It Works",
+    "performance": "Performance",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Elite Trading Strategies for Maximum Returns",
+      "subtitle": "Join Safe Trade for expert-managed PAMM accounts with transparent 50/50 profit sharing"
+    },
+    "about": {
+      "title": "Who We Are",
+      "content": "Safe Trade is a collective of expert traders, recognized for elite strategies and consistent performance."
+    }
+  },
+  "about": {
+    "title": "About Safe Trade",
+    "clickFeature": "Click any feature below",
+    "discoverApproach": "Discover our unique approach to trading excellence",
+    "whoWeAre": {
+      "title": "Who is Safe Trade?",
+      "content": "Safe Trade is a collective of expert traders, recognized for elite strategies and consistent performance. We specialize in managing PAMM accounts at Vantage International, focusing exclusively on XAUUSD (Gold/USD) and USTECH (Nasdaq index) for maximum results."
+    },
+    "approach": {
+      "title": "Our Unique Approach",
+      "content": "Our team of top traders focuses exclusively on XAUUSD (Gold/USD) and USTECH (Nasdaq), each with a proven strategy."
+    },
+    "partnership": {
+      "title": "Official Partnership",
+      "content": "We are officially partnered with Vantage International broker with over 15 years of experience."
+    },
+    "profitSharing": {
+      "title": "50/50 Profit Sharing",
+      "content": "Our 50/50 profit sharing model is better than the industry standard (usually 80/20), ensuring we only profit when you do."
+    },
+    "transparency": {
+      "title": "Transparency & Control",
+      "content": "We emphasize transparency, client control, and no direct deposit to us. Your funds always remain in your own Vantage account."
+    },
+    "features": {
+      "whoWeAre": {
+        "title": "Who is Safe Trade?",
+        "description": "Elite collective of expert traders with proven track records and over 10 years of combined experience in financial markets"
+      },
+      "approach": {
+        "title": "Our Unique Approach",
+        "description": "Advanced algorithmic trading strategies combining technical analysis, market psychology, and risk management protocols"
+      },
+      "partnership": {
+        "title": "Official Partnership",
+        "description": "Regulated partnership with Vantage International, ensuring institutional-grade security and compliance"
+      },
+      "profitSharing": {
+        "title": "50/50 Profit Sharing",
+        "description": "Industry-leading profit distribution model with complete transparency and no hidden fees"
+      },
+      "transparency": {
+        "title": "Transparency & Control",
+        "description": "Real-time trade monitoring, detailed performance reports, and complete account control at all times"
+      },
+      "security": {
+        "title": "Bank-Level Security",
+        "description": "Multi-layer security protocols, encrypted communications, and segregated client funds for maximum protection"
+      },
+      "expertise": {
+        "title": "Trading Expertise",
+        "description": "Specialized focus on XAUUSD (Gold) and USTECH (Nasdaq) with proprietary market analysis and execution strategies"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Dedicated client support team available around the clock for assistance and account management"
+      },
+      "technology": {
+        "title": "Advanced Technology",
+        "description": "State-of-the-art trading infrastructure with low-latency execution and real-time market data analysis"
+      }
+    },
+    "additionalInfo": {
+      "riskManagement": {
+        "title": "Risk Management",
+        "content": "Our sophisticated risk management system employs multiple safety measures including position sizing, stop-loss protocols, and market volatility analysis to protect your investment."
+      },
+      "trackRecord": {
+        "title": "Proven Track Record",
+        "content": "With consistent monthly returns and a focus on capital preservation, our team has successfully managed over $2M in client funds with a 85% win rate."
+      },
+      "compliance": {
+        "title": "Regulatory Compliance",
+        "content": "Fully compliant with international financial regulations, operating under strict guidelines to ensure client protection and ethical trading practices."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": {
+      "step1": {
+        "title": "Register with Vantage International",
+        "content": "Register with Vantage International using our referral.",
+        "detailedInfo": "Begin your journey with us by registering with Vantage International - one of the world's most trusted brokers. Use our special referral link to access exclusive benefits and support. The process is quick, secure, and completely free. Our team will support you every step of the way through registration."
+      },
+      "step2": {
+        "title": "Verify and Fund",
+        "content": "Verify your profile, open, and fund a PAMM account.",
+        "detailedInfo": "Complete your profile verification process for maximum security. Open a PAMM account that allows you to allocate funds for professional management. Minimum investment starts from $1000. All your funds remain secure in your own account at all times."
+      },
+      "step3": {
+        "title": "Grant Access",
+        "content": "Grant management access to Safe Trade (fully secure).",
+        "detailedInfo": "Grant limited trading access to our expert team. This access is completely secure - we can only trade but never withdraw funds. You maintain full control over your account and can revoke access at any time. Your capital security is our top priority."
+      },
+      "step4": {
+        "title": "Track Profits",
+        "content": "Sit back and relax—our team trades while you track profits in real-time.",
+        "detailedInfo": "Our team of professional traders works 24/7 using advanced algorithms and market analysis. You can track all trades and profits in real-time through your platform. Receive regular reports and updates on your investment performance with complete transparency."
+      },
+      "step5": {
+        "title": "Profit Sharing",
+        "content": "50/50 profit split at the end of each trading period. No profit means no fees.",
+        "detailedInfo": "Our transparent profit-sharing system means we only earn when you earn. 50% of profits stay with you, 50% is our commission. No hidden fees, monthly charges, or management fees. If there's no profit, you pay nothing. This is our commitment to your success."
+      }
+    }
+  },
+  "performance": {
+    "title": "Performance & Results",
+    "historicalPerformance": "Historical Performance",
+    "clientTestimonials": "Client Testimonials",
+    "videoTestimonials": {
+      "alexJohnson": {
+        "name": "Alex Johnson",
+        "role": "Professional Trader",
+        "preview": "Amazing results with Safe Trade..."
+      },
+      "mariaGarcia": {
+        "name": "Maria Garcia",
+        "role": "Investment Manager",
+        "preview": "Consistent profits month after month..."
+      },
+      "davidChen": {
+        "name": "David Chen",
+        "role": "Forex Analyst",
+        "preview": "Professional service and great returns..."
+      }
+    },
+    "tradingImages": {
+      "profitAnalytics": {
+        "title": "Profit Analytics",
+        "description": "Detailed profit analysis and performance metrics"
+      },
+      "riskManagement": {
+        "title": "Risk Management",
+        "description": "Advanced risk management tools and settings"
+      },
+      "marketAnalysis": {
+        "title": "Market Analysis",
+        "description": "Comprehensive market analysis and insights"
+      }
+    },
+    "testimonials": {
+      "alexJohnson": {
+        "name": "Alex Johnson",
+        "role": "Investor",
+        "content": "I've been with Safe Trade for 6 months and the results have been consistently impressive. Their transparent approach gives me confidence in my investment."
+      },
+      "mariaGarcia": {
+        "name": "Maria Garcia",
+        "role": "Business Owner",
+        "content": "The 50/50 profit sharing model is fair and motivating. I appreciate how they only make money when I do. Their focus on XAUUSD has been particularly profitable."
+      },
+      "davidChen": {
+        "name": "David Chen",
+        "role": "Retired Professional",
+        "content": "After trying several trading services, Safe Trade stands out for their expertise and communication. I can monitor my account anytime and the returns have been excellent."
+      },
+      "sarahWilliams": {
+        "name": "Sarah Williams",
+        "role": "Financial Advisor",
+        "content": "As someone in the financial industry, I appreciate their risk management approach. The specialized focus on specific markets shows their strategic thinking."
+      }
+    },
+    "liveActivity": {
+      "tradingActivity": "Trading Activity",
+      "marketSentiment": "Market Sentiment",
+      "volumeAnalysis": "Volume Analysis"
+    },
+    "metrics": {
+      "totalReturn": "Total Return",
+      "winRate": "Win Rate",
+      "sharpeRatio": "Sharpe Ratio",
+      "maxDrawdown": "Max Drawdown",
+      "totalTrades": "Total Trades",
+      "avgMonthly": "Avg Monthly",
+      "volatility": "Volatility",
+      "profitFactor": "Profit Factor",
+      "activeTraders": "Active Traders",
+      "dailyVolume": "Daily Volume",
+      "successRate": "Success Rate",
+      "liveTrades": "Live Trades",
+      "profitToday": "Profit Today",
+      "watching": "Watching"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "q1": {
+        "question": "Is my money safe with Safe Trade?",
+        "answer": "Yes, your funds always remain in your own Vantage International account. We never have direct access to withdraw your funds."
+      },
+      "q2": {
+        "question": "How does the PAMM account work?",
+        "answer": "PAMM (Percentage Allocation Management Module) allows you to allocate a portion of your funds to be managed by professional traders while maintaining full control of your account."
+      },
+      "q3": {
+        "question": "Can I withdraw my funds at any time?",
+        "answer": "Yes, you have complete control over your account and can withdraw your funds at any time."
+      },
+      "q4": {
+        "question": "How is risk managed?",
+        "answer": "Our team employs strict risk management protocols, limiting exposure and using strategic stop-losses to protect your investment."
+      },
+      "q5": {
+        "question": "How does the 50/50 profit sharing work?",
+        "answer": "At the end of each trading period, any profits generated are split equally between you and Safe Trade. If no profit is made, we don't charge any fees."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact & Support",
+    "getInTouch": "Let's Connect",
+    "description": "Ready to start your trading journey? We're here to guide you every step of the way.",
+    "email": "Email",
+    "phone": "Phone",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "contactMethods": {
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "email": "Email"
+    }
+  },
+  "common": {
+    "logoAlt": "Safe Trade"
+  }
+}
