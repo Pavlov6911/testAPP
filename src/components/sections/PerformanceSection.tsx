@@ -378,7 +378,7 @@ const PerformanceSection: React.FC = () => {
                     fontSize={12}
                     tickLine={false}
                     axisLine={false}
-                    tickFormatter={(value) => `${value}%`}
+                    tickFormatter={(value: any) => `${value}%`}
                   />
                   <Tooltip 
                     contentStyle={{
