@@ -137,7 +137,7 @@ const HowItWorksSection: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed"
             >
-              Следвайте тези прости стъпки, за да започнете вашето търговско пътешествие с Vantage International
+              {t('howItWorks.subtitle')}
             </motion.p>
           </div>
         </ScrollReveal>
@@ -264,10 +264,10 @@ const HowItWorksSection: React.FC = () => {
                         </motion.div>
                         
                         <h3 className="text-xl font-bold text-white mb-4 font-inter">
-                          Регистрирайте се във Vantage International
+                          {t('howItWorks.steps.step1.title')}
                         </h3>
                         <p className="text-white/90 leading-relaxed text-sm font-medium">
-                          Регистрирайте се във Vantage International, използвайки нашата препоръка.
+                          {t('howItWorks.steps.step1.content')}
                         </p>
                         
                         {/* Decorative elements */}

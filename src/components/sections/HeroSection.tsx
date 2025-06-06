@@ -273,9 +273,9 @@ const HeroSection: React.FC = () => {
                   }}
                 >
                   <img
-                    src="/images/image_2025-06-04_231413808.png"
-                    alt="Trading Platform Visualization"
-                    className="w-full h-auto max-w-md mx-auto rounded-2xl shadow-2xl"
+                    src="/safeimagetrade.png"
+                    alt={t('common.platformImageAlt')}
+                    className="w-full h-auto mx-auto rounded-2xl shadow-2xl" style={{maxWidth: '2400rem'}}
                   />
                 </motion.div>
                 

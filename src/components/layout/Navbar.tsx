@@ -59,8 +59,8 @@ const Navbar: React.FC = () => {
           <a href="#home" className="flex items-center">
             <img src={logo} alt={t('common.logoAlt')} className="h-10 w-10 mr-3" />
             <span className="text-2xl font-bold text-white">
-              <span className="text-accent">Safe</span>
-              <span className="ml-1">Trade</span>
+              <span className="text-accent">{t('common.logoAlt').split(' ')[0]}</span>
+              <span className="ml-1">{t('common.logoAlt').split(' ')[1]}</span>
             </span>
           </a>
         </motion.div>

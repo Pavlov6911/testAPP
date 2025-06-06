@@ -26,7 +26,7 @@ const performanceData = [
 
 // Key performance metrics
 const performanceMetrics = {
-  totalReturn: '287.3%',
+  totalReturn: '2.84',
   sharpeRatio: '2.84',
   maxDrawdown: '-4.1%',
   winRate: '76.8%',
@@ -430,13 +430,13 @@ const PerformanceSection: React.FC = () => {
                   ease: "easeInOut"
                 }}
               />
-              <span className="text-white text-sm font-semibold">LIVE</span>
+              <span className="text-white text-sm font-semibold">{t('performance.liveActivity.live')}</span>
             </div>
 
             <motion.h3 
               className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500 bg-clip-text text-transparent"
             >
-              Live Trading Activity
+              {t('performance.liveActivity.tradingActivity')}
             </motion.h3>
 
             {/* Chart Selection Tabs */}
@@ -750,7 +750,7 @@ const PerformanceSection: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Trading Signals */}
                     <div className="space-y-2">
-                      <h4 className="text-white font-semibold mb-3">Recent Signals</h4>
+                      <h4 className="text-white font-semibold mb-3">{t('performance.liveActivity.recentSignals')}</h4>
                       {[
                         { pair: 'EUR/USD', signal: 'BUY', profit: '+1.2%' },
                         { pair: 'GBP/JPY', signal: 'SELL', profit: '+2.8%' },
@@ -774,27 +774,27 @@ const PerformanceSection: React.FC = () => {
 
                     {/* Market Analysis */}
                     <div className="space-y-2">
-                      <h4 className="text-white font-semibold mb-3">Market Analysis</h4>
+                      <h4 className="text-white font-semibold mb-3">{t('performance.liveActivity.marketAnalysis')}</h4>
                       <div className="bg-black/50 rounded-lg p-3 border border-accent/10">
                         <div className="flex items-center gap-2 mb-2">
                           <span className="text-green-400">📈</span>
-                          <span className="text-white text-sm font-semibold">Bullish Sentiment</span>
+                          <span className="text-white text-sm font-semibold">{t('performance.liveActivity.bullishSentiment')}</span>
                         </div>
-                        <p className="text-white/70 text-xs">Strong upward momentum across major pairs</p>
+                        <p className="text-white/70 text-xs">{t('performance.liveActivity.bullishDescription')}</p>
                       </div>
                       <div className="bg-black/50 rounded-lg p-3 border border-accent/10">
                         <div className="flex items-center gap-2 mb-2">
                           <span className="text-accent">⚡</span>
                           <span className="text-white text-sm font-semibold">Volatility: 68%</span>
                         </div>
-                        <p className="text-white/70 text-xs">Ideal conditions for scalping strategies</p>
+                        <p className="text-white/70 text-xs">{t('performance.liveActivity.volatilityDescription')}</p>
                       </div>
                       <div className="bg-black/50 rounded-lg p-3 border border-accent/10">
                         <div className="flex items-center gap-2 mb-2">
                           <span className="text-blue-400">🎯</span>
                           <span className="text-white text-sm font-semibold">Success Rate: 87.3%</span>
                         </div>
-                        <p className="text-white/70 text-xs">AI algorithms performing above average</p>
+                        <p className="text-white/70 text-xs">{t('performance.liveActivity.successDescription')}</p>
                       </div>
                     </div>
                   </div>
@@ -1172,12 +1172,12 @@ const PerformanceSection: React.FC = () => {
           >
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {[
-                { icon: Users, label: 'Active Traders', value: '1,247', color: 'text-blue-400' },
-                { icon: DollarSign, label: 'Daily Volume', value: '€2.8M', color: 'text-green-400' },
-                { icon: TrendingUp, label: 'Success Rate', value: '87.3%', color: 'text-orange-400' },
-                { icon: Activity, label: 'Live Trades', value: '156', color: 'text-red-400' },
-                { icon: BarChart3, label: 'Profit Today', value: '+€45K', color: 'text-purple-400' },
-                { icon: Eye, label: 'Watching', value: '2,891', color: 'text-cyan-400' },
+                { icon: Users, label: t('performance.metrics.activeTraders'), value: '1,247', color: 'text-blue-400' },
+                { icon: DollarSign, label: t('performance.metrics.dailyVolume'), value: '€2.8M', color: 'text-green-400' },
+                { icon: TrendingUp, label: t('performance.metrics.successRate'), value: '87.3%', color: 'text-orange-400' },
+                { icon: Activity, label: t('performance.metrics.liveTrades'), value: '156', color: 'text-red-400' },
+                { icon: BarChart3, label: t('performance.metrics.profitToday'), value: '+€45K', color: 'text-purple-400' },
+                { icon: Eye, label: t('performance.metrics.watching'), value: '2,891', color: 'text-cyan-400' },
               ].map(({ icon: Icon, label, value, color }, index) => (
                 <motion.div
                   key={label}

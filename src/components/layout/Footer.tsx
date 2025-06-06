@@ -20,8 +20,8 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <span className="text-accent">Safe</span>
-          <span className="ml-1">Trade</span>
+              <span className="text-accent">{t('common.logoAlt').split(' ')[0]}</span>
+          <span className="ml-1">{t('common.logoAlt').split(' ')[1]}</span>
             </motion.div>
             <motion.p 
               className="text-white mb-4"
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              {t('nav.title', 'Quick Links')}
+              {t('footer.quickLinks')}
             </motion.h3>
             <motion.ul 
               className="space-y-2"

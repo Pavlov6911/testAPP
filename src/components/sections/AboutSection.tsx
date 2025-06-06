@@ -110,28 +110,28 @@ const AboutSection: React.FC = () => {
     },
     {
       key: 'innovation',
-      title: 'Advanced Innovation',
-      content: 'Cutting-edge trading algorithms and AI-powered market analysis for superior performance.',
+      title: t('about.features.innovation.title'),
+      content: t('about.features.innovation.description'),
       icon: <Rocket size={36} />,
       color: 'orange',
-      description: 'Our proprietary technology stack includes machine learning models, real-time data processing, and advanced risk assessment tools that give our clients a competitive edge in the markets.'
+      description: t('about.features.innovation.description')
     },
     {
-      key: 'global',
-      title: 'Global Reach',
-      content: 'Worldwide market access with 24/7 trading capabilities across multiple time zones.',
+      key: 'globalReach',
+      title: t('about.features.globalReach.title'),
+      content: t('about.features.globalReach.description'),
       icon: <Globe size={36} />,
       color: 'blue',
-      description: 'Access global markets including forex, commodities, indices, and cryptocurrencies with our international trading infrastructure and multi-jurisdictional compliance.'
+      description: t('about.features.globalReach.description')
     },
     {
-      key: 'precision',
-      title: 'Precision Trading',
-      content: 'Microsecond execution speeds and pinpoint accuracy in trade execution.',
+      key: 'precisionTrading',
+      title: t('about.features.precisionTrading.title'),
+      content: t('about.features.precisionTrading.description'),
       icon: <Target size={36} />,
       color: 'green',
-      description: 'Our high-frequency trading infrastructure ensures minimal slippage and optimal entry/exit points with advanced order management systems.'
-    },
+      description: t('about.features.precisionTrading.description')
+    }
   ];
 
   const handleFeatureClick = (index: number) => {
@@ -362,7 +362,7 @@ const AboutSection: React.FC = () => {
                       >
                         Discover SafeTrade Excellence
                       </motion.h3>
-                      <p className="text-gray-300">Click on any feature below to explore our advanced trading solutions and innovative technology</p>
+                      <p className="text-gray-300">{t('about.clickFeature')}</p>
                     </motion.div>
                   )}
                 </AnimatePresence>
@@ -599,7 +599,7 @@ const AboutSection: React.FC = () => {
                 }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
-                Why Choose SafeTrade?
+                {t('about.whyChoose.title')}
               </motion.h2>
               <motion.div 
                 className="w-24 h-1 bg-gradient-to-r from-orange-500 to-orange-400 mx-auto rounded-full"

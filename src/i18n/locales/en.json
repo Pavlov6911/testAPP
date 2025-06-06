@@ -1,10 +1,13 @@
 {
-  "common": {
+  "commonSection": {
     "getStarted": "Get Started",
     "learnMore": "Learn More",
     "contactUs": "Contact Us",
     "joinNow": "Join Now",
-    "askUs": "Ask Us Anything"
+    "askUs": "Ask Us Anything",
+    "logoAlt": "Safe Trade",
+    "platformImageAlt": "Safe Trade Trading Platform",
+    "siteTitle": "Safe Trade - Elite Trading Strategies"
   },
   "nav": {
     "home": "Home",
@@ -48,6 +51,9 @@
       "title": "Transparency & Control",
       "content": "We emphasize transparency, client control, and no direct deposit to us. Your funds always remain in your own Vantage account."
     },
+    "whyChoose": {
+      "title": "Why Choose SafeTrade?"
+    },
     "features": {
       "whoWeAre": {
         "title": "Who is Safe Trade?",
@@ -84,6 +90,18 @@
       "technology": {
         "title": "Advanced Technology",
         "description": "State-of-the-art trading infrastructure with low-latency execution and real-time market data analysis"
+      },
+      "innovation": {
+        "title": "Advanced Innovation",
+        "description": "Our proprietary technology stack includes machine learning models, real-time data processing, and advanced risk assessment tools that give our clients a competitive edge in the markets."
+      },
+      "globalReach": {
+        "title": "Global Reach",
+        "description": "Access global markets including forex, commodities, indices, and cryptocurrencies with our international trading infrastructure and multi-jurisdictional compliance."
+      },
+      "precisionTrading": {
+        "title": "Precision Trading",
+        "description": "Our high-frequency trading infrastructure ensures minimal slippage and optimal entry/exit points with advanced order management systems."
       }
     },
     "additionalInfo": {
@@ -103,6 +121,7 @@
   },
   "howItWorks": {
     "title": "How It Works",
+    "subtitle": "Follow these simple steps to start your trading journey with Vantage International",
     "steps": {
       "step1": {
         "title": "Register with Vantage International",
@@ -132,7 +151,24 @@
     }
   },
   "performance": {
-    "title": "Performance & Results",
+    "title": "Trading Performance",
+    "subtitle": "Track our real-time results",
+    "description": "Our PAMM accounts demonstrate consistent performance with a focus on risk management and long-term growth.",
+    "viewDetails": "View Details",
+    "monthlyReturns": "Monthly Returns",
+    "liveDashboard": "Live Dashboard",
+    "liveMetrics": {
+      "activeTraders": "Active Traders",
+      "totalVolume": "Total Volume",
+      "dailyProfit": "Daily Profit",
+      "successRate": "Success Rate",
+      "avgReturn": "Avg Return",
+      "riskScore": "Risk Score"
+    },
+    "returns": {
+      "title": "Monthly Returns",
+      "description": "Track our monthly performance"
+    },
     "historicalPerformance": "Historical Performance",
     "clientTestimonials": "Client Testimonials",
     "videoTestimonials": {
@@ -189,8 +225,15 @@
       }
     },
     "liveActivity": {
+      "live": "LIVE",
       "tradingActivity": "Trading Activity",
       "marketSentiment": "Market Sentiment",
+      "recentSignals": "Recent Signals",
+      "marketAnalysis": "Market Analysis",
+      "bullishSentiment": "Bullish Sentiment",
+      "bullishDescription": "Strong upward momentum across major pairs",
+      "volatilityDescription": "Ideal conditions for scalping strategies",
+      "successDescription": "AI algorithms performing above average",
       "volumeAnalysis": "Volume Analysis"
     },
     "metrics": {
@@ -231,7 +274,59 @@
       },
       "q5": {
         "question": "How does the 50/50 profit sharing work?",
-        "answer": "At the end of each trading period, any profits generated are split equally between you and Safe Trade. If no profit is made, we don't charge any fees."
+        "answer": "At the end of each trading period, all generated profits are split equally between you and Safe Trade. If no profit is realized, we don't charge any fees."
+      },
+      "q6": {
+        "question": "What is the minimum deposit to get started?",
+        "answer": "The minimum deposit for a PAMM account with Vantage International is $500. This allows you to start with a managed portfolio and benefit from our expert strategies."
+      },
+      "q7": {
+        "question": "Which markets do you trade?",
+        "answer": "We focus exclusively on XAUUSD (Gold/USD) and USTECH (Nasdaq index). This specialization allows us to achieve maximum expertise and results in these markets."
+      },
+      "q8": {
+        "question": "How can I monitor my investment results?",
+        "answer": "You have full access to your Vantage account 24/7, where you can see all trades, profits/losses, and overall balance in real-time. We also provide regular performance reports."
+      },
+      "q9": {
+        "question": "What happens if I want to stop the account management?",
+        "answer": "You can terminate the PAMM service at any time without any penalties. Simply contact us and we will deactivate the management, leaving you with full control of your funds."
+      },
+      "q10": {
+        "question": "Is Vantage International a regulated broker?",
+        "answer": "Yes, Vantage International is a fully regulated broker with licenses from multiple financial authorities, including ASIC, FCA, and CIMA, ensuring the safety of your funds."
+      },
+      "q11": {
+        "question": "What is your total return performance?",
+        "answer": "Our current total return stands at 287.3%, demonstrating consistent profitability over our trading period."
+      },
+      "q12": {
+        "question": "How do you measure risk-adjusted returns?",
+        "answer": "We use the Sharpe Ratio to measure risk-adjusted returns. Our current Sharpe Ratio is 2.84, indicating excellent risk-adjusted performance."
+      },
+      "q13": {
+        "question": "What is your maximum drawdown?",
+        "answer": "Our maximum drawdown is -4.1%, showing strong risk management and capital preservation during adverse market conditions."
+      },
+      "q14": {
+        "question": "What is your trading win rate?",
+        "answer": "We maintain a win rate of 76.8%, reflecting our disciplined approach and market expertise in executing profitable trades."
+      },
+      "q15": {
+        "question": "How many trades have you executed?",
+        "answer": "We have successfully executed 6,391 total trades, providing substantial data to validate our trading strategy's effectiveness."
+      },
+      "q16": {
+        "question": "What is your average monthly return?",
+        "answer": "Our average monthly return is 18.2%, demonstrating consistent monthly performance and compounding growth."
+      },
+      "q17": {
+        "question": "How volatile are your returns?",
+        "answer": "Our volatility is 12.4%, indicating moderate risk levels while maintaining strong returns and portfolio stability."
+      },
+      "q18": {
+        "question": "What is your profit factor?",
+        "answer": "Our profit factor is 2.67, meaning our gross profits are 2.67 times larger than our gross losses, showing strong profitability."
       }
     }
   },
@@ -253,7 +348,12 @@
       "email": "Email"
     }
   },
+  "footer": {
+    "quickLinks": "Quick Links"
+  },
   "common": {
-    "logoAlt": "Safe Trade"
+    "logoAlt": "Safe Trade",
+    "siteTitle": "Safe Trade - Elite Trading Strategies",
+    "platformImageAlt": "Safe Image Trade Platform"
   }
 }
