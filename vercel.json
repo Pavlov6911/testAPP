@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "buildCommand": "npm install --force && tsc --noEmit && npm run build",
+  "build": {
+    "env": {
+      "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+    }
+  },
+  "buildCommand": "npm install && tsc --noEmit && npm run build",
   "outputDirectory": "build",
   "framework": "create-react-app",
   "routes": [
